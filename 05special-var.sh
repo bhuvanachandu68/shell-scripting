@@ -9,7 +9,7 @@
 a=100
 b=20
 echo "this is $0"
-echo"declared values are $a $b"
+echo "declared values are $a $b"
 echo "the value of x is $1"
 echo "The name of trainer is  $2"
 echo "cli variables $*"
