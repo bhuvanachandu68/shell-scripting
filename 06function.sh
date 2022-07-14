@@ -6,6 +6,7 @@ sam(){
 f(){
     echo "the number of useres loged in are $(who|wc -l)"
     sam
+    stat
 }
 echo "hello:)"
 f
@@ -18,3 +19,5 @@ echo "load Average from last 1 min is $(uptime |awk -F :'{print $NF}'|awk -F , '
 f
 sam
 }
+stat
+f
