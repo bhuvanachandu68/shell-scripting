@@ -1,3 +1,3 @@
-DATE_COMMAND=$(date +%f)
+DATE_COMMAND=$(date +%F)
 echo "todays date is $DATE_COMMAND"
 
