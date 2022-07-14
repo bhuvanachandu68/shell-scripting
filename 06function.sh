@@ -1,10 +1,11 @@
 #!bin/bash
 ## function helps to write the repetative code
+LOADAVD=$(uptime | awk -F :'{print $NF}'| awk -F , '{print $1}')
 sam(){
     echo "hello I'm Sam"
 }
 stat(){
-echo "load Average from last 1 min is $(uptime | awk -F :'{print $NF}'| awk -F , '{print $1}')"
+echo "load Average from last 1 min is $LOADAVD"
 
 }
 f(){
