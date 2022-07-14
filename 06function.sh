@@ -13,3 +13,8 @@ sleep 5
 f
 sleep 5
 f
+stat(){
+echo "load Average from last 1 min is $(uptime |awk -F :'{print $NF}'|awk -F , '{print $1}')"
+f
+sam
+}
