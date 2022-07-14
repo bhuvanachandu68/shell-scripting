@@ -6,7 +6,7 @@ sam(){
 f(){
     echo "the number of useres loged in are $(who|wc -l)"
     sam
-    stat
+
 }
 echo "hello:)"
 f
