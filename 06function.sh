@@ -1,6 +1,6 @@
 #!bin/bash
 ## function helps to write the repetative code
-source ./common.sh
+source ./07common.sh
 LOADAVD="$(uptime | awk -F :'{print $NF}'| awk -F , '{print $1}')"
 sam(){
     echo "hello I'm Sam"
