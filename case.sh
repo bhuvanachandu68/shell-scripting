@@ -15,5 +15,5 @@ echo "bye"
 exit 1
 $?
 ;;
-
+echo "The output is $?"
 esac
