@@ -9,7 +9,7 @@ echo "load Average from last 1 min is $LOADAVD"
 
 }
 f(){
-    echo "the number of useres loged in are $(who|wc -l)"
+    echo "the number of useres loged in are $(who |wc -l)"
     sam
     stat
 
