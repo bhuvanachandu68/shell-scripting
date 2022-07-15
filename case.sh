@@ -13,6 +13,7 @@ exit 0;;
 *)
 echo "bye"
 exit 1
-;;
 $?
+;;
+
 esac
