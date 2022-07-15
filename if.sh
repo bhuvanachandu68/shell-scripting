@@ -9,4 +9,5 @@ elif [ "$ACTION" = "restart" ]; then
 echo -e "selected option is \e[35m restart \e[0m"
 else
 echo -e "selected option is \e[34m select valid option \e[0m"
+exit 9
 fi
