@@ -1,4 +1,5 @@
-!#bin/bash
+#!bin/bash
+
 action=$1
 case $action in 
 start) 

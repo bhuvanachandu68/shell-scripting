@@ -1,4 +1,4 @@
-#bin/bash!
+#!bin/bash
 ## colour
 echo -e "\e[33m IM priniting some colour \e[0m"
 echo -e "\e[34m IM priniting some colour \e[0m"
