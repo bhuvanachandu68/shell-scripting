@@ -1,5 +1,6 @@
 #!bin/bash
 ## function helps to write the repetative code
+source ./common.sh
 LOADAVD="$(uptime | awk -F :'{print $NF}'| awk -F , '{print $1}')"
 sam(){
     echo "hello I'm Sam"
@@ -20,3 +21,4 @@ sleep 5
 f
 sleep 5
 f
+common_fun
